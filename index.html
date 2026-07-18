@@ -167,6 +167,23 @@
     margin-top:38px;
     flex-wrap:wrap;
   }
+  .hero::before{
+    content:"DDM CORP LLC";
+    position:absolute;
+    inset:0;
+    font-family:'Oswald', sans-serif;
+    font-size:clamp(200px, 35vw, 600px);
+    font-weight:700;
+    text-transform:uppercase;
+    color:rgba(27,29,31,0.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:1;
+    white-space:nowrap;
+    pointer-events:none;
+    letter-spacing:0.05em;
+  }
   .btn{
     padding:15px 28px;
     text-decoration:none;
